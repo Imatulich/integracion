@@ -1,0 +1,29 @@
+
+.tarjeta {
+    width: 160px;
+    height: auto;
+    border: 1px solid #213329;
+    border-radius: 8px;
+    padding: 4px;
+    background-color: #2c533b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.tarjeta img{
+    width: 50%;
+    object-fit: cover;
+    margin: 15px;
+}
+.tarjeta h2{
+    color: chartreuse;
+    font-size: 15px;
+}
+.tarjeta:hover{
+    background-color: #262623c9;
+    color: beige;
+}
+.boton{
+    background-color: red;
+    color: black;
+    align-items: right;
+}
